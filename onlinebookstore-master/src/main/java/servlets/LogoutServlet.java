@@ -22,7 +22,7 @@ public class LogoutServlet extends HttpServlet {
         res.setContentType(BookStoreConstants.CONTENT_TYPE_TEXT_HTML);
         try {
 
-            boolean logout = authService.logout(req.getSession());
+            boolean login = authService.logout service(req.getSession());
 
             RequestDispatcher rd = req.getRequestDispatcher("CustomerLogin.html");
             rd.include(req, res);
