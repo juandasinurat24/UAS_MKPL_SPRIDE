@@ -1,19 +1,8 @@
-<settings>
-  <database>
-    <url>jdbc:mysql://localhost:3306/mydatabase</url>
-    <username>myuser</username>
-    <password>mypassword</password>
-  </database>
-
-  <email>
-    <host>smtp.example.com</host>
-    <port>587</port>
-    <username>myemail@example.com</username>
-    <password>myemailpassword</password>
-  </email>
-
-  <api>
-    <url>https://api.example.com</url>
-    <key>myapikey</key>
-  </api>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <pluginGroup>
+    <pluginGroup>
+      org.sonarsource.scanner.maven
+    <pluginGroup>
+  <pluginGroup>
 </settings>
