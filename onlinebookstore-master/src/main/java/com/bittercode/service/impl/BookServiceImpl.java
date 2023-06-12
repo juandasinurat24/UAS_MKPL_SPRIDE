@@ -17,6 +17,7 @@ import com.bittercode.util.DBUtil;
 public class BookServiceImpl implements BookService {
 
     private static final String getAllBooksQuery = "SELECT * FROM " + BooksDBConstants.TABLE_BOOK;
+    private static final String getBooksByNameQuery = "SELECT * FROM " + BooksDBConstants.TABLE_BOOK;
     private static final String getBookByIdQuery = "SELECT * FROM " + BooksDBConstants.TABLE_BOOK
             + " WHERE " + BooksDBConstants.COLUMN_BARCODE + " = ?";
 
