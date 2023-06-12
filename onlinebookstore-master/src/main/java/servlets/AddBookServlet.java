@@ -22,8 +22,9 @@ public class AddBookServlet extends HttpServlet {
     BookService bookService = new BookServiceImpl();
 
     public void service(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
-        PrintWriter pw = res.getWriter();
+        PrintWriter pw = get.writer ;
         res.setContentType(BookStoreConstants.CONTENT_TYPE_TEXT_HTML);
+       
 
         if (!StoreUtil.isLoggedIn(UserRole.SELLER, req.getSession())) {
             RequestDispatcher rd = req.getRequestDispatcher("SellerLogin.html");
