@@ -12,8 +12,8 @@ public interface UserService {
 
     public String register(UserRole role, User user) throws StoreException;
 
-    public boolean isLoggedIn(UserRole role, HttpSession session);
+    public boolean isLoggedIn(UserRole role, User Service role);
 
-    public boolean logout(HttpSession session);
+    
 
 }
