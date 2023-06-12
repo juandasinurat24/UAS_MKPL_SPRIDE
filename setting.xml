@@ -1,0 +1,19 @@
+<settings>
+  <database>
+    <url>jdbc:mysql://localhost:3306/mydatabase</url>
+    <username>myuser</username>
+    <password>mypassword</password>
+  </database>
+
+  <email>
+    <host>smtp.example.com</host>
+    <port>587</port>
+    <username>myemail@example.com</username>
+    <password>myemailpassword</password>
+  </email>
+
+  <api>
+    <url>https://api.example.com</url>
+    <key>myapikey</key>
+  </api>
+</settings>
